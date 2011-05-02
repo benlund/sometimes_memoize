@@ -1,5 +1,7 @@
 module SometimesMemoize
 
+  VERSION = '1.0'
+
   module ClassMethods
   
     def sometimes_memoized_instance_variable_names

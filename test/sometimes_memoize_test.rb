@@ -1,6 +1,8 @@
 require 'test/unit'
 
-$:.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+unless ARGV.include?('gem')
+  $:.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+end
 require 'sometimes_memoize'
 
 class Memoizer

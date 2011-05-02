@@ -16,6 +16,9 @@ Features:
  * Annotate existing methods as sometimes memoized
  * Wrap code blocks and sometimes memoize the result
 
+## Install
+
+    $ sudo gem install sometimes_memoize
 
 ## Summary
 
